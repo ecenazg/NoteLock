@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateItemActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="@dimen/textInputLayoutWidth"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Name"
+        app:endIconMode="clear_text"
+        android:layout_marginTop="80dp"
+        android:id="@+id/updateItemNameLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:id="@+id/updateItemName"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="@dimen/textInputLayoutWidth"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updateItemNameLayout"
+        android:layout_centerHorizontal="true"
+        android:hint="Username/Email"
+        app:endIconMode="clear_text"
+        android:id="@+id/updateItemUserNameLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:id="@+id/updateItemUserName"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="@dimen/textInputLayoutWidth"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updateItemUserNameLayout"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"
+        app:endIconMode="password_toggle"
+        android:id="@+id/updateItemPasswordLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/updateItemPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="@dimen/textInputLayoutWidth"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updateItemPasswordLayout"
+        android:layout_centerHorizontal="true"
+        android:hint="URL"
+        app:endIconMode="clear_text"
+        android:id="@+id/updateItemUrlLayout"
+        app:prefixText="www."
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            android:id="@+id/updateItemUrl"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updateItemUrlLayout"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:id="@+id/updateItemProgressbar"/>
+
+
+
+</RelativeLayout>

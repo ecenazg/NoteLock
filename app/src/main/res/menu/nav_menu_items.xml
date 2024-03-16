@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/btm_nav_myvault"
+        android:icon="@drawable/nav_unlock"
+        android:title="MyVault" />
+
+    <item android:id="@+id/btm_nav_generator"
+        android:icon="@drawable/cached_24"
+        android:title="Generator" />
+
+    <item android:id="@+id/btm_nav_search"
+        android:icon="@drawable/nav_search"
+        android:title="Search" />
+
+    <item android:id="@+id/btm_nav_settings"
+        android:icon="@drawable/nav_settings"
+        android:title="Settings" />
+
+
+
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".UploadImageActivity">
+
+    <Button
+        android:id="@+id/uploadImageChooseFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_background"
+        android:text="Choose File" />
+
+    <Button
+        android:id="@+id/uploadImageDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/green"
+        android:text="Done"
+        android:layout_toRightOf="@+id/uploadImageUpload"
+        android:layout_alignTop="@+id/uploadImageUpload"
+        android:background="@drawable/button_background"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:id="@+id/uploadImageUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
+        android:text="Upload" />
+
+    <ProgressBar
+        android:layout_marginBottom="50dp"
+        android:id="@+id/uploadImageProgressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/uploadImageUpload"/>
+
+    <ImageView
+        android:id="@+id/uploadImageImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/uploadImageChooseFile"
+        android:layout_above="@+id/uploadImageProgressbar"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>

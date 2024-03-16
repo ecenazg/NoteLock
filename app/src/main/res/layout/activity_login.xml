@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/loginEmailText"
+        android:layout_width="@dimen/textInputLayoutWidth"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:startIconDrawable="@drawable/ic_email"
+        android:hint="Email"
+        app:endIconMode="clear_text"
+        app:errorEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/loginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/loginPasswordText"
+
+        android:layout_width="@dimen/textInputLayoutWidth"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:startIconDrawable="@drawable/ic_password"
+        android:layout_below="@+id/loginEmailText"
+        android:hint="Password"
+        app:endIconMode="password_toggle"
+        app:errorEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/loginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:background="@drawable/button_background"
+        android:layout_below="@id/loginPasswordText"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        app:icon="@drawable/icon_login"/>
+
+    <TextView
+        android:id="@+id/loginForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_below="@id/loginPasswordText"
+        android:textSize="16dp"
+        android:layout_alignRight="@+id/loginPasswordText"
+        android:textColor="@color/teal_700"
+        />
+    <Button
+        android:id="@+id/loginRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create new Account"
+        android:background="@drawable/button_background"
+        app:backgroundTint="@color/green"
+        android:layout_below="@+id/loginLogin"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
+        app:icon="@drawable/ic_how_to_reg"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginProgressbar"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/loginRegister"
+        android:layout_marginTop="20dp"
+        style="?android:attr/progressBarStyle"
+
+        />
+
+
+
+</RelativeLayout>

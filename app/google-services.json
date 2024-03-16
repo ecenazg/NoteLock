@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "132850438345",
+    "project_id": "passwordkeeper-4dff0",
+    "storage_bucket": "passwordkeeper-4dff0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132850438345:android:4a7e09726d79da39287d18",
+        "android_client_info": {
+          "package_name": "com.passwordkeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132850438345-odmfr86g0schveg4hgvv0vpsrmgc3rar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4jHEbZeWX63VaFc5qM7K_qmEQthLKnVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132850438345-odmfr86g0schveg4hgvv0vpsrmgc3rar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

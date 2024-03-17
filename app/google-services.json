@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "132850438345",
-    "project_id": "passwordkeeper-4dff0",
-    "storage_bucket": "passwordkeeper-4dff0.appspot.com"
+    "project_number": "381347888675",
+    "project_id": "notelock-37b24",
+    "storage_bucket": "notelock-37b24.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:132850438345:android:4a7e09726d79da39287d18",
+        "mobilesdk_app_id": "1:381347888675:android:e243beb78213ba52d8fb96",
         "android_client_info": {
-          "package_name": "com.passwordkeeper"
+          "package_name": "com.app.notelock"
         }
       },
       "oauth_client": [
         {
-          "client_id": "132850438345-odmfr86g0schveg4hgvv0vpsrmgc3rar.apps.googleusercontent.com",
+          "client_id": "381347888675-ofc6poa21fn4qqcu3658gtgkfg6f65hq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC4jHEbZeWX63VaFc5qM7K_qmEQthLKnVk"
+          "current_key": "AIzaSyAiLihO4NZQICKhLBsEB8745BJC2tnbZ5k"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "132850438345-odmfr86g0schveg4hgvv0vpsrmgc3rar.apps.googleusercontent.com",
+              "client_id": "381347888675-ofc6poa21fn4qqcu3658gtgkfg6f65hq.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

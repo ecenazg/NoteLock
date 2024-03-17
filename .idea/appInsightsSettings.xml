@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.passwordkeeper" />
-                  <option name="mobileSdkAppId" value="1:132850438345:android:4a7e09726d79da39287d18" />
-                  <option name="projectId" value="passwordkeeper-4dff0" />
-                  <option name="projectNumber" value="132850438345" />
+                  <option name="appId" value="com.app.notelock" />
+                  <option name="mobileSdkAppId" value="1:381347888675:android:e243beb78213ba52d8fb96" />
+                  <option name="projectId" value="notelock-37b24" />
+                  <option name="projectNumber" value="381347888675" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
